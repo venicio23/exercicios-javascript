@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Desafio - A-B-C</title>
+  </head>
+
+  <body>
+    <script>
+  
+      //Declaração das variáveis
+      var a = prompt('Digite o valor de A: ');  
+      var b = prompt('Digite o valor de B: ');
+      var c = null; // Variável Auxiliar 
+
+      // Código resposonsável por exibir os valores na tela.
+      document.write('Os valores de A e B digitados:<br>');
+      document.write('O valor de A: '+a+'<br>');
+      document.write('O valor de B: '+b+'<br>');
+
+      document.write('<br>');
+
+      alert('Agora vamos inverter os valores de A e B')
+
+      //Lógica de inversão dos valores SUPONDO que os valores são A = 10, B = 20, C = Null
+      var c = b; // a variavel C, recebe o valor de B ou seja => C = 20
+      var b = a; // a varivel B recebe o valor de A ou seja => B = 10 
+      var a = c; // a variavel A recebe o valor de C, e C é igual a B ou seja => A = 20
+      var c = null; // aqui resolvi deixa C como Null de novo (é opcional)
+
+      //Mostrando os valores depois que foram invertidos.
+      document.write('O valor de A invertido: '+a+'<br>');
+      document.write('O valor de B invertido: '+b+'<br>');
+
+
+
+    </script>
+  </body>
+</html>
